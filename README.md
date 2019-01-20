@@ -1,4 +1,4 @@
-A little docker demo for secconf
+A little docker demo for seccomp
 
     $ docker build -t test
     $ docker run --rm -it --security-opt seccomp=${PWD}/profiles/seccomp_centos_default.json test
