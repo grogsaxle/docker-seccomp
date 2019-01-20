@@ -1,8 +1,6 @@
-from ubuntu
+from python:3.7-alpine3.7
 
-COPY src/run.sh /run.sh
+COPY src/run.py /run.py
 
-RUN chmod +x /run.sh
-
-CMD /run.sh
+CMD python run.py
 
